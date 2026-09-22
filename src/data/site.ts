@@ -1,0 +1,45 @@
+export const site = {
+  name: 'Brightwork Electrical Services',
+  shortName: 'Brightwork Electrical',
+  phone: '+1 303-621-5710',
+  phoneHref: 'tel:+13036215710',
+  domain: 'https://www.brightworkelectrical.com',
+  email: 'service@brightworkelectrical.com',
+  address: {
+    street: '1550 Blake St',
+    city: 'Denver',
+    state: 'CO',
+    zip: '80202',
+    full: '1550 Blake St, Denver, CO 80202',
+  },
+  mapsEmbed:
+    'https://maps.app.goo.gl/GciYUzYX7PTppL5m6',
+  hours: [
+    { day: 'Monday', hours: '7:00 AM – 7:00 PM' },
+    { day: 'Tuesday', hours: '7:00 AM – 7:00 PM' },
+    { day: 'Wednesday', hours: '7:00 AM – 7:00 PM' },
+    { day: 'Thursday', hours: '7:00 AM – 7:00 PM' },
+    { day: 'Friday', hours: '7:00 AM – 7:00 PM' },
+    { day: 'Saturday', hours: '8:00 AM – 5:00 PM' },
+    { day: 'Sunday', hours: 'Emergency Service' },
+  ],
+  socialLinks: [],
+} as const;
+
+export const serviceAreas = [
+  'Denver, CO',
+  'Aurora, CO',
+  'Lakewood, CO',
+  'Littleton, CO',
+  'Englewood, CO',
+  'Centennial, CO',
+  'Thornton, CO',
+  'Westminster, CO',
+  'Arvada, CO',
+  'Highlands Ranch, CO',
+  'Parker, CO',
+  'Castle Rock, CO',
+  'Broomfield, CO',
+  'Golden, CO',
+  'Boulder, CO',
+] as const;
